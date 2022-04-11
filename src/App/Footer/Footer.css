@@ -1,0 +1,28 @@
+.footer {
+  flex: 1;
+  display: flex;
+  width: 95%;
+  padding: 5px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.prev-btn .next-btn {
+  flex: 1;
+}
+
+.btn {
+  height: 4em;
+  width: 10em;
+  background-color: var(--secondary);
+  color: var(--font-color);
+  border-radius: 5%;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background-color: var(--primary);
+}

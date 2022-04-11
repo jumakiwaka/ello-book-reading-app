@@ -1,0 +1,9 @@
+.wordToken {
+  flex: 9;
+  font-size: 7em;
+  font-weight: bolder;
+}
+
+.navigation {
+  flex: 1;
+}
